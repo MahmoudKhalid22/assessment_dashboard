@@ -25,3 +25,14 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+#__next {
+  display: flex;
+  align-items: flex-start;
+}
+.overlay {
+  position: fixed;
+  z-index: 999;
+  background-color: #000000bb;
+  width: 100vw;
+  height: 100vh;
+}
