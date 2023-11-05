@@ -8,7 +8,7 @@ import { HiOutlineSupport } from "react-icons/hi";
 
 import classes from "./DoubleNavbar.module.scss";
 
-const renderIcon = (icon) => {
+const renderIcon = (icon:string) => {
   switch (icon) {
     case "BiHomeCircle":
       return <BiHomeCircle />;
